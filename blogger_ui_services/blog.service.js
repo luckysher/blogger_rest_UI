@@ -16,6 +16,8 @@
                   var Headers = {
                         'Accept' : 'application/json'
                   }
+
+                  // http call for fetching blogs from the rest api
                   $http.get('http://127.0.0.1:8000/blogs', { headers : Headers }).then(function success(response){
                                 callback(response.data);
                         },function error(response){ console.log("no blogs")});
