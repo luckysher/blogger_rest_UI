@@ -13,6 +13,8 @@
 
             // get the available blogs details
             function getBlogs(callback){
+
+            // set headers
                   var Headers = {
                         'Accept' : 'application/json'
                   }
