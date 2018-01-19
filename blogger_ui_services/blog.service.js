@@ -16,7 +16,8 @@
 
             // set headers
                   var Headers = {
-                        'Accept' : 'application/json'
+                        'Accept' : 'application/json',
+                        'Content-Type': 'application/json'
                   }
 
                   // http call for fetching blogs from the rest api
