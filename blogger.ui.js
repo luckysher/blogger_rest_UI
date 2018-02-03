@@ -14,7 +14,7 @@
                                             template: 'home.view.html'
                                         }).
                             when('/blog/:Id', {
-                                            template: ''
+                                            template: 'blog.detail.html'
                                         }).
                                             otherwise('/blogs');
                                     }
