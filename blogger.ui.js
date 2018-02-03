@@ -5,9 +5,10 @@
                 .config(config)
                 .run(run);
 
-        function config(){
-            var appName = "Blogger UI";
-        };
+        function config(['$routeProvider',
+
+            function config($routeProvider) {
+                         ]);
 
         function run(){
         };
