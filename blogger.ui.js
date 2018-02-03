@@ -8,6 +8,11 @@
         function config(['$routeProvider',
 
             function config($routeProvider) {
+
+                    $routeProvider.
+                            when('/blogs', {
+                                            template: ''
+                                        }).
                          ]);
 
         function run(){
