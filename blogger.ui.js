@@ -11,7 +11,7 @@
 
                     $routeProvider.
                             when('/blogs', {
-                                            template: ''
+                                            template: 'home.view.html'
                                         }).
                             when('/blog/:Id', {
                                             template: ''
