@@ -6,8 +6,7 @@
                 .run(run);
 
         function config(){
-        var appName = "Blogger UI";
-
+            var appName = "Blogger UI";
         };
 
         function run(){
