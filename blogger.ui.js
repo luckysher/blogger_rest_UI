@@ -13,6 +13,11 @@
                             when('/blogs', {
                                             template: ''
                                         }).
+                            when('/blog/:Id', {
+                                            template: ''
+                                        }).
+
+                                    }
                          ]);
 
         function run(){
