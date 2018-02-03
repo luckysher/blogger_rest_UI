@@ -16,7 +16,7 @@
                             when('/blog/:Id', {
                                             template: ''
                                         }).
-
+                                            otherwise('/blogs');
                                     }
                          ]);
 
