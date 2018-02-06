@@ -5,9 +5,7 @@
                 .config(config)
                 .run(run);
 
-        function config(['$routeProvider',
-
-            function config($routeProvider) {
+        function config(['$routeProvider', function config($routeProvider) {
 
                     $routeProvider.
                             when('/blogs', {
@@ -16,7 +14,7 @@
                             when('/blog/:Id', {
                                             template: 'blog.detail.html'
                                         }).
-                                            otherwise('/blogs');
+                            otherwise('/blogs');  // default url
                                     }
                          ]);
 
