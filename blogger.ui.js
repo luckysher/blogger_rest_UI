@@ -5,7 +5,7 @@
                 .config(config)
                 .run(run);
 
-        function config(['$routeProvider', function config($routeProvider) {
+        function config($routeProvider) {
 
                     $routeProvider.
                             when('/blogs', {
@@ -20,9 +20,10 @@
                                         }).
                             otherwise('/blogs');  // default url
                                     }
-                         ]);
+
 
         function run(){
+            console.log("Running...");
         };
 
           
