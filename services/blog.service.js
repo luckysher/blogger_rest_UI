@@ -1,4 +1,5 @@
-// Blogger service for fetching latest blogs from the Blogger Rest API in  Spring
+// Blogger service for fetching latest
+// blogs from the Blogger Rest API in  Spring
 
 ()(function(){
    'use strict';
