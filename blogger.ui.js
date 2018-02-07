@@ -14,7 +14,9 @@
                                             controllerAs: 'blogger'
                                         }).
                             when('/blog/:Id', {
-                                            template: 'blog.detail.html'
+                                            template: 'blog/blog.details.html',
+                                            controller: 'Blog.IndexController',
+                                            controllerAs: 'blogger'
                                         }).
                             otherwise('/blogs');  // default url
                                     }
