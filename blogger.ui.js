@@ -9,7 +9,9 @@
 
                     $routeProvider.
                             when('/blogs', {
-                                            template: 'home.view.html'
+                                            templateUrl: 'home/home.view.html',
+                                            controller: 'Home.IndexController',
+                                            controllerAs: 'blogger'
                                         }).
                             when('/blog/:Id', {
                                             template: 'blog.detail.html'
