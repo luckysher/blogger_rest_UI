@@ -7,6 +7,7 @@
         function blogController($scope, $routeParams){
 
             var blogger = this;
+            // blog id for accessing blog
             blogger.blog_id = $routeParams.Id;
 
         }
