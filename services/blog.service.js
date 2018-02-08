@@ -1,17 +1,22 @@
 // Blogger service for fetching latest
 // blogs from the Blogger Rest API in  Spring
 
-()(function(){
+(function(){
    'use strict';
     angular
         .module('bloggerui')
         .factory('BlogService', BlogService);
 
-        function BlogService($http, $localStorage){
-          var service = {}
+        function BlogService($http){
+        //function BlogService($http, $localStorage){
+          var service = {};
           service.Blogs = getBlogs;
+          service.test = testing;
           return service;
 
+            function testing(){
+            console.log("testing");
+            }
             // get the available blogs details
             function getBlogs(callback){
 
