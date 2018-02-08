@@ -9,17 +9,19 @@
                     console.log("loaded config...");
 
                     $routeProvider
-                            .when('/blogs', {
+                            .when('blogs', {
+                                            resolveAs: '/blogs',
                                             templateUrl: 'home/home.view.html',
                                             controller: 'Home.IndexController',
                                             controllerAs: 'blogger'
                                         })
-                            .when('/blog/Id', {
+                            .when('/blog/:Id/', {
+                                            resolveAs: '/blog/:Id/',
                                             templateUrl: 'blog/blog.details.html',
                                             controller: 'Blog.IndexController',
                                             controllerAs: 'blogger'
                                         })
-                            .otherwise('/blog/Id');  // default url
+                            .otherwise('/blogs/');  // default url
                           }
 
 
